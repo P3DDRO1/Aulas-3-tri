@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
-@media screen and (min-width: 768px) {
-    .parametro-coluna__senha{
-    flex-direction: row;
-    }
-}
 :root{
     --branco: white;
     --cor-de-fundo: #00162E;
@@ -103,7 +98,7 @@ label{
     height: 30px;
     width: 100%;
 }
-.parametro-senha-texto{
+.parametro-senha-textos{
     display: flex;
     justify-content: space-between;
 }
@@ -123,4 +118,9 @@ label{
 .forte{
     background-color: #00FF85;
     width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
 }
